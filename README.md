@@ -1,6 +1,6 @@
 # Skeleton-Quest
 
-This is a simple rougelike game, where player has to defeat enemies and collect items to complete levels. Its main goal was to practice OOP paradigms in Java such as polymorphism, inheritance, encapsulation and abstraction. Additionaly I took the first steps into threads implementation to separate the logic and the graphic layers.
+This is a simple rougelike game, where player has to defeat enemies and collect items to complete levels. Its main goal was to practice OOP paradigms in Java such as polymorphism, inheritance, encapsulation and abstraction. Additionaly I took the first steps into multi-threading to separate the logic and the graphic layers.
 
 ## Screenshots
 
