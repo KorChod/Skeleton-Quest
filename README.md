@@ -2,6 +2,16 @@
 
 This is a simple rougelike game where player has to defeat enemies and collect items to complete levels. It's main purpose was to practice Java, JavaFx and OOP paradigms.
 
+# Screenshots
+
+Level 1:
+
+![tiles](github_resources/1.png)
+
+Level 2:
+
+![tiles](github_resources/2.png)
+
 ## Gameplay
 
 Below are listed main features of the game
