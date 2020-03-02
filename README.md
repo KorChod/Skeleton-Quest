@@ -1,8 +1,8 @@
 # Skeleton-Quest
 
-This is a simple rougelike game where player has to defeat enemies and collect items to complete levels. It's main purpose was to practice Java, JavaFx and OOP paradigms.
+This is a simple rougelike game, where player has to defeat enemies and collect items to complete levels. Its main goal was to practice OOP paradigms in Java such as polymorphism, inheritance, encapsulation and abstraction. Additionaly I took the first steps into threads implementation to separate the logic and the graphic layers.
 
-# Screenshots
+## Screenshots
 
 Level 1:
 
@@ -11,6 +11,19 @@ Level 1:
 Level 2:
 
 ![tiles](github_resources/2.png)
+
+## Tech Stack 
+- Java 8 SE
+- JavaFX
+- Maven
+
+## Goals
+The purpose of this project was to practice following subjects:
+-
+
+## Implemented Features
+
+
 
 ## Gameplay
 
