@@ -1,35 +1,61 @@
-# Codecool Quest
+# Skeleton-Quest
 
-This is a simple tile-based RPG game.
+This is a simple rougelike game where player has to defeat enemies and collect items to complete levels. It's main purpose was to practice Java, JavaFx and OOP paradigms.
+
+## Gameplay
+
+Below are listed main features of the game
+
+**PLAYER**
+
+Expierence points, gained by killing enemies.
+
+Health points, restored by potions and on level up.
+
+Attack and defence points to calculate damage dealt and taken in fights.
+
+Items, displayed in inventory.
+
+
+**ENEMIES**
+
+There are several types of enemies, each having different value of health, attack and defence points.
+
+Every enemy moves in a random direction. 
+
+Each type has it's own movement speed which was implemented using seperate threads for logic and GUI.
+
+
+**ITEMS**
+
+Keys: open doors.
+
+Armor and weapon: currently do not increase player's stats (not yet implemented).
+
+Potions: restore health when picked up.
+
+
+**PORTALS**
+
+Entrance to the next level.
+
+
+**MAPS**
+
+We have currently developed 2 levels:
+
 
 ## Opening the project
 
-Open the project in IntelliJ IDEA. This is a Maven project, so you will need to open `pom.xml`.
+This is a Maven project, so you will need to open `pom.xml`.
 
 The project is using JavaFX.  Use the `javafx` maven plugin to build and run the program.
 
-Build:
 
-```bash
-mvn javafx:compile
-```
-
-Run:
-
-```bash
-mvn javafx:run
-```
-
-## Architecture
-
-The project is meant to teach the concept of **layer separation**. All of the game logic (that is, player movement, game rules, and so on), is in the `logic` package, completely independent of user interface code. In principle, you could implement a completely different interface (terminal, web, Virtual Reality...) for the same logic code.
-
-## Product Backlog
-
-[Codecool Quest Product Backlog](https://docs.google.com/spreadsheets/d/1CvVh2s6obWEh4eQxu8w4f3jBLhz208bG-1FybWGc1sA/edit#gid=0)
-
-## Graphics
-
-The tiles used in the game are from [1-Bit Pack by Kenney](https://kenney.nl/assets/bit-pack), shared on [CC0 1.0 Universal license](https://creativecommons.org/publicdomain/zero/1.0/).
+## Specification
+Java 11
+JavaFX
+Maven
+Threads
 
 ![tiles](src/main/resources/tiles.png)
