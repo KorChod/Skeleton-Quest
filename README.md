@@ -21,6 +21,7 @@ Level 2:
 The purpose of this project was to practice following subjects:
 - practical implementation of polymorphism, abstraction, encapsulation and inheritance,
 - access modifiers,
+- interfaces,
 - multi-threading,
 - creating desktop application UI in JavaFX,
 - managing project dependencies through Maven,
