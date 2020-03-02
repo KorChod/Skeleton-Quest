@@ -19,66 +19,32 @@ Level 2:
 
 ## Goals
 The purpose of this project was to practice following subjects:
--
+- practical implementation of polymorphism, abstraction, encapsulation and inheritance,
+- access modifiers,
+- multi-threading,
+- creating desktop application UI in JavaFX,
+- managing project dependencies through Maven,
+- reading pictures from a part of bitmap,
+- generating map from a text file.
 
 ## Implemented Features
+- player's movement,
+- enemy's random movement with obstacle recognition,
+- items' collection,
+- inventory,
+- player's experience and level-up,
+- potions restore health,
+- level gaining restore health,
+- player can attack enemies,
+- enemies can counter-attack player,
+- player has defence points which reduce damage taken,
+- enemies have different defence points depending on an enemy type,
+- enemies have different movement speed depending on an enemy type,
+- keys to unlock doors.
 
 
-
-## Gameplay
-
-Below are listed main features of the game
-
-**PLAYER**
-
-Expierence points, gained by killing enemies.
-
-Health points, restored by potions and on level up.
-
-Attack and defence points to calculate damage dealt and taken in fights.
-
-Items, displayed in inventory.
-
-
-**ENEMIES**
-
-There are several types of enemies, each having different value of health, attack and defence points.
-
-Every enemy moves in a random direction. 
-
-Each type has it's own movement speed which was implemented using seperate threads for logic and GUI.
-
-
-**ITEMS**
-
-Keys: open doors.
-
-Armor and weapon: currently do not increase player's stats (not yet implemented).
-
-Potions: restore health when picked up.
-
-
-**PORTALS**
-
-Entrance to the next level.
-
-
-**MAPS**
-
-We have currently developed 2 levels:
-
-
-## Opening the project
+## Setup
 
 This is a Maven project, so you will need to open `pom.xml`.
 
 The project is using JavaFX.  Use the `javafx` maven plugin to build and run the program.
-
-
-## Specification
-Java 11
-JavaFX
-Maven
-Threads
-
-![tiles](src/main/resources/tiles.png)
